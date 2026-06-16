@@ -3,6 +3,8 @@
 Zeit: 30-45 Minuten
 Level: 2
 
+> **Voraussetzung:** ein vorhandener Planning-Skill (aus Vormittag oder [00 Planner](../00-planning-skill/README.md)).
+
 ## Ziel
 
 Passe einen Planning-Skill so an, dass er einen Bean erzeugt statt einer `.plans/<task>.md`-Datei.

@@ -14,6 +14,10 @@ Du kannst bereitgestellte Teile durch deine eigenen ersetzen, wenn sie fertig si
 **Wir arbeiten im bereitgestellten `sandbox`-Ordner!**
 
 
+## Vor dem Start
+
+Falls du am Vormittag keinen Planning-Skill gebaut hast — [00 Planner](00-planning-skill/README.md) (30-35 Min) als Aufwärmer. Etabliert das Muster „Skill → dauerhaftes Artefakt", auf dem die Nachmittags-Factory aufbaut. Optional, aber empfohlen für Level 2.
+
 ## Factory-Contract
 
 ```text
@@ -39,18 +43,13 @@ Der Klebstoff ist keine Magie. Es ist der Contract:
 
 | Segment | Zeit | Aktivität |
 | --- | ---: | --- |
+| (Optional) Aufwärmer | 30-35 Min | 00 Planning-Skill für Nachzügler vom Vormittag |
 | Gemeinsame Erklärung | 15 Min | Factory-Contract erklären |
 | Wahl der Übung | 50-60 Min | Level 1, 2 oder 3 wählen |
 | Implement-Demo | 15-20 Min | Trainer führt bereitgestelltes `/implement` aus |
 | Debrief | 10 Min | Was hat die Factory zusammengehalten? |
 
 ## Übungs-Level
-
-### Level 0 — Planning-Skill-Warm-up
-
-Baue einen eigenständigen Planning-Skill, der `.plans/<task>.md` schreibt. Vormittags-Übertrag / Pre-Exercise — etabliert das Muster „Skill erzeugt ein dauerhaftes Artefakt", auf dem die Nachmittags-Factory aufbaut. Siehe [00 Planner](00-planning-skill/README.md).
-
-Am besten für Teilnehmende, die die Vormittags-Planungs-Übung übersprungen haben oder vor dem Einstieg in die Bean-basierte Factory eine Auffrischung wollen.
 
 ### Level 1 — Bereitgestellte Factory ausführen
 
@@ -80,10 +79,13 @@ Am besten für fortgeschrittene Teilnehmende.
 
 ## Übungen
 
-0. [00 Planner](00-planning-skill/README.md)
-1. [01 Factory-Contract](01-factory-contract/README.md)
-2. [02 Planner zum Bean](02-planner-to-bean/README.md)
-3. [03 Refine-Bean](03-refine-bean/README.md)
+**Aufwärmer (optional, Vormittags-Carry-over):**
+- [00 Planner](00-planning-skill/README.md) — Skill schreibt `.plans/<task>.md`
+
+**Nachmittag — Factory-Pipeline:**
+1. [01 Factory-Contract](01-factory-contract/README.md) — Theorie + Bean inspizieren
+2. [02 Planner zum Bean](02-planner-to-bean/README.md) — Level 2
+3. [03 Refine-Bean](03-refine-bean/README.md) — Level 3
 
 ## Bereitgestellte Fallbacks
 
